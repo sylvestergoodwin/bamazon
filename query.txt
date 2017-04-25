@@ -1,0 +1,23 @@
+/*create database Bamazon;
+create table Bamazon.products
+(item_id         integer          NOT NULL       auto_increment,
+product_name     varchar(100)     NOT NULL,
+department_name  varchar(50)          NULL,
+price            decimal(10,2)    NOT NULL       default 0,
+stock_quantity   integer          NOT NULL       default 0,
+PRIMARY KEY (item_id)
+);
+
+INSERT INTO Bamazon.products
+(product_name, department_name, price, stock_quantity)
+values
+('Kermit The Frog', 'Toys', 25.00, 32),
+('Miss Piggy', 'Toys', 100.00, 15),
+('Garfield', 'Toys', 22.08, 4 ),
+('TARDIS Phone Booth','Furniture',400.34 ,12 ),
+('Tachikoma','Vehicle',2000.43 ,4 ),
+('Sonic Screwdriver','Tools', 21, 2),
+('HoverBoard','Vehicle', 234.54, 23),
+('Weeping Angel','Statue',32.32 ,2),
+('Gold Ring','Jewelery',200.03 ,1)
+('Fozzie Bear', 'Toys', 23.00, 45); */
